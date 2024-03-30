@@ -1,7 +1,17 @@
 h1{
-    color:maroon;
+    color:white;
 }
 
+body{
+    background-color: black;
+    color:white;
+    margin: 20;
+    padding: 20px;
+}
+
+p{
+    font-weight: bold
+}
 #second{
     color:blueviolet;
 }
