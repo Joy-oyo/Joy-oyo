@@ -1,21 +1,18 @@
 h1{
-    color:white;
+    color:greenyellow;
+    text-align: center;
+}
+h3{
+    color:aquamarine
 }
 
 body{
     background-color: black;
-    color:white;
+    color:greenyellow;
+    text-align: center;
+    font-family: monospace;
     margin: 20;
     padding: 20px;
 }
 
-p{
-    font-weight: bold
-}
-#second{
-    color:blueviolet;
-}
 
-.second{
-    color:aquamarine;
-}
