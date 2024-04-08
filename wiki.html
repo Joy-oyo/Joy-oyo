@@ -19,14 +19,30 @@
     </head>
 
     <body>
-        <header>
-            <!-- place navbar here -->
-        </header>
-        <main></main>
-        <footer>
-            <!-- place footer here -->
-        </footer>
+        <div id ="nav-placeholder"></div>
+        <div class = "container mt-3">
+            <div id = "title">Wiki API Example</div>
+            <form>
+                <div class = "row">
+                    <div class = "col">
+                        <input id = "searchTerm" type = "text" class="form-control" placeholder = "Enter your search term here...">
+                    </div>
+                </div>
+            </form>
+
+            <button type = "submit" class = "btn btn-primary my-3" onclick ="wikiAPI()">Search</button>
+
+            <div class = "container" id = "wiki"></div>
+        </div>
+
+        <footer id="footerPlaceholder" class="d-none d-md-block footer container-fluid mt-auto py-3 bg-light"></footer>
+
         <!-- Bootstrap JavaScript Libraries -->
+        <script src = "js/wikiAPI.js"></script>
+        <script src = "js/nav.js"></script>
+        <script src = "js/footer.js"></script>
+
+
         <script
             src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
             integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
