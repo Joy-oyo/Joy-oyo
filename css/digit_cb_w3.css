@@ -14,10 +14,10 @@ table{
     color: #800000;
 }
 
-li:not(.e):not(.e li)::first-letter{
+li:not(.navbar-nav li):not(.e):not(.e li)::first-letter {
     font-size: x-large;
     font-weight: bold;
-}
+  }
 
 
 .a{list-style-type: lower-roman;}
