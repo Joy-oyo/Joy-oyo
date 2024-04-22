@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Chalkboard W5</title>
+  <link rel="stylesheet" type="text/css" href="../css/digit_cb_w5.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Digital Chalkboard</h1>
+
+    <div class="trivia">
+      <h2>Trivia Question</h2>
+      <p>What is the capital of France?</p>
+      <input type="text" id="triviaAnswer" placeholder="Enter your answer">
+      <button type="button" onclick="checkTrivia()">Submit</button>
+      <div id="triviaResponse"></div>
+    </div>
+
+    <div class="number-checker">
+      <h2>5-Digit Number Checker</h2>
+      <input type="text" id="numberInput" placeholder="Enter a 5-digit number">
+      <button type="button" onclick="checkNumber()">Check</button>
+      <div id="numberResponse"></div>
+    </div>
+  </div>
+
+  <script src="../js/digit_cb_w5.js"></script>
+</body>
+</html>
