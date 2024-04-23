@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player-container">
+        <div class="track-info" id="trackInfo">Not Playing</div>
+        <button id="prevBtn" class="button">Previous</button>
+        <button id="playBtn" class="button">Play</button>
+        <button id="pauseBtn" class="button">Pause</button>
+        <button id="nextBtn" class="button">Next</button>
+        <div id="progressContainer" class="progress-container">
+            <div id="progressBar" class="progress-bar"></div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/howler@2.2.1/dist/howler.min.js"></script>
+    <script src="music_player.js"></script>
+</body>
+</html>
+
