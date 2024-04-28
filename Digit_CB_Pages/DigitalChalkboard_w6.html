@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Chalkboard W6</title>
+  <link rel="stylesheet" type="text/css" href="../css/digit_cb_w6.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Digital Chalkboard Week 6</h1>
+
+    Default List: ['Watermelon', 'Apple', 'Orange', 'Kiwi']
+    
+    <div class="last">
+      <button onclick="lastItem(['Watermelon', 'Apple', 'Orange', 'Kiwi'])">Last Item</button>
+      <div id="lastItemOutput"></div>
+    </div>
+
+    <div>--------------------------------------</div>
+
+    Sorting Inputs
+    <div class="sort">
+      <button id="sortButton" class="btn btn-primary" onclick = "sortItemsInput()">Sorting Items</button>
+      <div id="sortOutput"></div>
+    </div>
+
+    <div id="outputArray"></div>
+
+  </div>
+
+  <script src="../js/digit_cb_w6.js"></script>
+</body>
+</html>
