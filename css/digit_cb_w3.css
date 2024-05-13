@@ -33,19 +33,6 @@ a#not-nav:link{color: hotpink;}
 a#not-nav:visited{color: greenyellow;}
 a#not-nav:hover{color: blue}
 
-.navbar {
-    background-color: #767676;
-}
-
-.navbar.navbar-brand,
-.navbar.nav-link {
-    color: #FFFFFF;
-}
-
-.navbar .nav-link.active {
-    color: #FFC72C;
-}
-
 .btn-outline-success {
     color: #800000;
     border-color: #800000;
