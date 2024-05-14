@@ -100,5 +100,10 @@ function displayAlbumDetails(albumId) {
         })
         .catch(error => {
             console.error('Error:', error);
+            const errorMessage = document.createElement('p');
+            errorMessage.textContent = 'An error occurred. Please try again later.';
+            artistResultsDiv.appendChild(errorMessage);
         });
 }
+
+document.getElementById('searchButton').addEventListener('click', searchArtist);

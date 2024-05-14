@@ -18,6 +18,14 @@ h1 {
     margin-bottom: 30px;
 }
 
+.primary-button {
+    background-color: #007bff;
+}
+
+.secondary-button {
+    background-color: #800000;
+}
+
 .search-container {
     display: flex;
     justify-content: center;
